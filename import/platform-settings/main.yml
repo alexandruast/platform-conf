@@ -1,18 +1,13 @@
 import_path: platform-settings
 
-environments:
-  - integration
-  - qa
-  - production
+vault_address:
+  http://vault.service.consul:8200
 
-scheduler_api_url:
-  https://nomad.service.consul
+docker_registry_address:
+  docker.io
 
-source_control_url:
-  https://bitbucket.service.consul
-
-ci_automation_url:
-  https://jenkins.service.consul
+docker_registry_path:
+  platformdemo
 
 artifact_repository_url:
   https://nexus.service.consul
