@@ -1,5 +1,5 @@
 consul:
-  - host: consul.service.consul
+  - host: {{lookup('env','CONSUL_IP_ADDR')}}
     port: 8500
     token: None
     scheme: http
