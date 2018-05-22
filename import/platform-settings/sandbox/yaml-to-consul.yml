@@ -1,7 +1,0 @@
-import_path: platform_settings/sandbox/yaml_to_consul
-
-scm_url:
-  "https://github.com/alexandruast/yaml-to-consul"
-
-scm_branch:
-  "*/master"
