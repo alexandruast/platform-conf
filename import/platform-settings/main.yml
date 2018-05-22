@@ -1,0 +1,18 @@
+import_path: platform-settings
+
+environments:
+  - integration
+  - qa
+  - production
+
+scheduler_api_url:
+  https://nomad.service.consul
+
+source_control_url:
+  https://bitbucket.service.consul
+
+ci_automation_url:
+  https://jenkins.service.consul
+
+artifact_repository_url:
+  https://nexus.service.consul

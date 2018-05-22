@@ -1,0 +1,10 @@
+consul:
+  - host: consul.service.consul
+    port: 8500
+    token: None
+    scheme: http
+    consistency: default
+    dc: None
+    verify: True
+    cert: None
+    clear: True
