@@ -1,4 +1,4 @@
-import_path: platform+settings
+import_path: platform_settings
 
 vault_address:
   "http://vault.service.consul:8200"
