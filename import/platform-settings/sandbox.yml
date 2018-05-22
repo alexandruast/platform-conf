@@ -4,4 +4,4 @@ yaml-to-consul/scm_url:
   https://github.com/alexandruast/yaml-to-consul
 
 yaml-to-consul/scm_branch:
-  */master
+  master
