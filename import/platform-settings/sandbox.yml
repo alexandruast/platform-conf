@@ -26,3 +26,12 @@ fabio/scm_branch:
 
 fabio/build_dir:
     "pods/fabio"
+
+hello/scm_url:
+  "https://github.com/alexandruast/java-pod-hello-rest"
+
+hello/scm_branch:
+  "*/master"
+
+hello/build_dir:
+    "./"
