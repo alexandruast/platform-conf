@@ -7,7 +7,7 @@ yaml-to-consul/scm_branch:
   "*/master"
 
 yaml-to-consul/build_dir:
-  "./"
+  "."
 
 fluentd/scm_url:
   "https://github.com/alexandruast/platform-inception"
@@ -43,4 +43,4 @@ echo/scm_branch:
   "*/master"
 
 echo/build_dir:
-    "./"
+    "."
