@@ -27,14 +27,14 @@ fabio/scm_branch:
 fabio/build_dir:
     "pods/fabio"
 
-test/scm_url:
+sleep/scm_url:
   "https://github.com/alexandruast/platform-inception"
 
-test/scm_branch:
+sleep/scm_branch:
   "*/devel"
 
-test/build_dir:
-    "pods/test"
+sleep/build_dir:
+    "pods/sleep"
 
 echo/scm_url:
   "https://github.com/alexandruast/java-echo-service"
