@@ -1,6 +1,6 @@
 import_path:    platform-config/sandbox/simple
 
-scm_url:        "https://github.com/jglick/simple-maven-project-with-tests"
+scm_url:        "https://github.com/LableOrg/java-maven-junit-helloworld"
 scm_branch:     "*/master"
 checkout_dir:   "."
 
