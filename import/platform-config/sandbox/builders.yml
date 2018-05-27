@@ -1,13 +1,13 @@
 import_path: platform-config/sandbox/builders
 
 scm_url:
-  "https://github.com/alexandruast/platform-inception"
+  https://github.com/alexandruast/platform-inception
 
 scm_branch:
-  "*/devel"
+  */devel
 
 checkout_dir:
-  "common/builders"
+  builders
 
 relative_dir:
-  ".extra-builders"
+  .extra-builders
