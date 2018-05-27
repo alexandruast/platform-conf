@@ -3,3 +3,5 @@ import_path: platform-config/sandbox/sleep
 scm_url:      "https://github.com/alexandruast/platform-inception"
 scm_branch:   "*/devel"
 checkout_dir: "pods/sleep"
+
+build_profile:  "golang"
