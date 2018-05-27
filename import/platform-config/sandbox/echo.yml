@@ -4,7 +4,7 @@ scm_url:        "https://github.com/alexandruast/java-echo-service"
 scm_branch:     "*/master"
 checkout_dir:   "."
 
-build_profile:  "gradle-openjdk8"
+build_profile:  "gradle47-openjdk8"
 deploy_profile: "S1HTTP"
 
 pod_count:      2
