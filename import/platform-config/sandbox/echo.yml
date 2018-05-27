@@ -1,10 +1,9 @@
-import_path: platform-config/sandbox/echo
+import_path:   platform-config/sandbox/echo
 
-scm_url:
-  "https://github.com/alexandruast/java-echo-service"
+scm_url:       "https://github.com/alexandruast/java-echo-service"
+scm_branch:    "*/master"
+checkout_dir:  "."
+nomad_profile: "S1"
 
-scm_branch:
-  "*/master"
-
-checkout_dir:
-  "."
+pod_count:     2
+pod_memory:    400
