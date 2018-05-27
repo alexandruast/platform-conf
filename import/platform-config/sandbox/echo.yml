@@ -1,10 +1,10 @@
-import_path:   platform-config/sandbox/echo
+import_path:    platform-config/sandbox/echo
 
-scm_url:       "https://github.com/alexandruast/java-echo-service"
-scm_branch:    "*/master"
-checkout_dir:  "."
-nomad_profile: "S1"
-dockerfile:    "gradle-openjdk8"
+scm_url:        "https://github.com/alexandruast/java-echo-service"
+scm_branch:     "*/master"
+checkout_dir:   "."
+nomad_profile:  "S1"
+docker_profile: "gradle-openjdk8"
 
-pod_count:     2
-pod_memory:    400
+pod_count:      2
+pod_memory:     400
