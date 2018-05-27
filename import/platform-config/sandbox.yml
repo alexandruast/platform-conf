@@ -1,13 +1,13 @@
 import_path: platform-config/sandbox
 
-shell/scm_url:
+builders/scm_url:
   "https://github.com/alexandruast/platform-inception"
 
-shell/scm_branch:
+builders/scm_branch:
   "*/devel"
 
-shell/scm_dir:
-  "common/jobs/shell"
+builders/scm_dir:
+  "common/builders"
 
 yaml-to-consul/scm_url:
   "https://github.com/alexandruast/yaml-to-consul"
