@@ -8,3 +8,6 @@ scm_branch:
 
 checkout_dir:
   "common/builders"
+
+relative_dir:
+  ".extra-builders"
