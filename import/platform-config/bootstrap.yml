@@ -1,7 +1,4 @@
 import_path: platform-config/bootstrap
 
-scm_url:
-  "https://github.com/alexandruast/platform-data"
-
-scm_branch:
-  "*/master"
+scm_url:    "https://github.com/alexandruast/platform-data"
+scm_branch: "*/master"
