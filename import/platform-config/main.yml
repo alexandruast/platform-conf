@@ -9,8 +9,3 @@ docker_registry_address:
 docker_registry_path:
   "platformdemo"
 
-bootstrap/scm_url:
-  "https://github.com/alexandruast/platform-data"
-
-bootstrap/scm_branch:
-  "*/master"

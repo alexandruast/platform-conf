@@ -1,0 +1,10 @@
+import_path: platform-config/sandbox/echo
+
+scm_url:
+  "https://github.com/alexandruast/java-echo-service"
+
+scm_branch:
+  "*/master"
+
+echo/checkout_dir:
+    "."

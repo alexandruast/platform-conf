@@ -1,0 +1,10 @@
+import_path: platform-config/sandbox/fabio
+
+scm_url:
+  "https://github.com/alexandruast/platform-inception"
+
+scm_branch:
+  "*/devel"
+
+checkout_dir:
+    "pods/fabio"
