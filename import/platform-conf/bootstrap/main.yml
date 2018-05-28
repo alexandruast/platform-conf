@@ -1,0 +1,4 @@
+import_path: platform/conf/bootstrap
+
+bootstrap_scm_url:    "https://github.com/alexandruast/platform-conf"
+bootstrap_scm_branch: "*/master"

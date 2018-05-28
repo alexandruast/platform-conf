@@ -1,4 +1,3 @@
 import_path: platform/conf/global
 
-bootstrap_scm_url:    "https://github.com/alexandruast/platform-conf"
-bootstrap_scm_branch: "*/master"
+vault_address:        "http://vault.service.consul:8200"

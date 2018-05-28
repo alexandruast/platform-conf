@@ -1,6 +1,5 @@
 import_path: platform/conf/sandbox/global
 
-vault_address:           "http://vault.service.consul:8200"
 docker_registry_address: "docker.io"
 docker_registry_path:    "platformdemo"
 
