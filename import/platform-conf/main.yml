@@ -1,6 +1,0 @@
-import_path: platform/conf
-
-vault_address:           "http://vault.service.consul:8200"
-docker_registry_address: "docker.io"
-docker_registry_path:    "platformdemo"
-

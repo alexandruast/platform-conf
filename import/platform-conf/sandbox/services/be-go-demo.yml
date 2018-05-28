@@ -1,7 +1,7 @@
-import_path: platform/conf/sandbox/sleep
+import_path: platform/conf/sandbox/services/golang-demo
 
 scm_url:      "https://github.com/alexandruast/platform-inception"
 scm_branch:   "*/devel"
-checkout_dir: "pods/sleep"
+checkout_dir: "pods/golang-demo"
 
 build_profile:  "golang"
