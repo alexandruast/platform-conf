@@ -1,4 +1,4 @@
-import_path:    platform-config/sandbox/echo
+import_path:    platform/conf/sandbox/echo
 
 scm_url:        "https://github.com/alexandruast/java-echo-service"
 scm_branch:     "*/master"

@@ -1,4 +1,4 @@
-import_path: platform-config/sandbox/sleep
+import_path: platform/conf/sandbox/sleep
 
 scm_url:      "https://github.com/alexandruast/platform-inception"
 scm_branch:   "*/devel"

@@ -1,4 +1,4 @@
-import_path: platform-config/sandbox/yaml-to-consul
+import_path: platform/conf/sandbox/yaml-to-consul
 
 scm_url:      "https://github.com/alexandruast/yaml-to-consul"
 scm_branch:   "*/master"

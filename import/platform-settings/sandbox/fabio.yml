@@ -1,5 +1,5 @@
-import_path: platform-config/sandbox/fluentd
+import_path: platform/conf/sandbox/fabio
 
 scm_url:      "https://github.com/alexandruast/platform-inception"
 scm_branch:   "*/devel"
-checkout_dir: "pods/fluentd"
+checkout_dir: "pods/fabio"
