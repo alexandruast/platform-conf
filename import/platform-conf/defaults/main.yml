@@ -8,3 +8,6 @@ deploy_ssh_opts: >-
   -o UserKnownHostsFile=/dev/null
   -o BatchMode=yes
   -o ExitOnForwardFailure=yes
+
+build_tag: '$(git -C "${WORKSPACE}" rev-parse --short HEAD)'
+tunnel_port: "$(perl -e 'print int(rand(999)) + 58000')"
