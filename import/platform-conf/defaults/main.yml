@@ -9,5 +9,7 @@ deploy_ssh_opts: >-
   -o BatchMode=yes
   -o ExitOnForwardFailure=yes
 
-build_tag: '$(git -C "${WORKSPACE}" rev-parse --short HEAD)'
+git_dir: "${WORKSPACE}/.git"
+git_work_tree: "${WORKSPACE}"
+build_tag: '$(git rev-parse --short HEAD)'
 tunnel_port: "$(perl -e 'print int(rand(999)) + 58000')"
