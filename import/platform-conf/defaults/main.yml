@@ -1,16 +1,4 @@
 import_path: platform/conf/defaults
 
-vault_addr:              "http://vault.service.consul:8200"
-
-docker_registry_address: "docker.io"
-
-builders_checkout_dir:   "builders"
-builders_relative_dir:   ".extra-builders"
-builders_scm_branch:     "*/master"
-checkout_dir:            "."
-pod_count:               "1"
-pod_memory:              "128"
-scm_branch:              "*/master"
-
 current_build_tag:       "none"
 current_deploy_tag:      "none"
