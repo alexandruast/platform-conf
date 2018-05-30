@@ -1,5 +1,4 @@
 import_path: platform/conf/sandbox/images/sys-py-yaml-to-consul
 
 scm_url:      "https://github.com/alexandruast/yaml-to-consul"
-scm_branch:   "*/master"
-checkout_dir: "."
+

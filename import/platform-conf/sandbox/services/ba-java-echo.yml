@@ -1,8 +1,6 @@
 import_path:    platform/conf/sandbox/services/be-java-echo
 
 scm_url:        "https://github.com/alexandruast/java-echo-service"
-scm_branch:     "*/master"
-checkout_dir:   "."
 
 build_profile:  "gradle47-openjdk8"
 deploy_profile: "S1HTTP"
