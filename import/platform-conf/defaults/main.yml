@@ -1,0 +1,10 @@
+import_path: platform/conf/defaults
+
+current_build_tag: none
+
+deploy_ssh_opts: >-
+  -o LogLevel=error
+  -o StrictHostKeyChecking=no
+  -o UserKnownHostsFile=/dev/null
+  -o BatchMode=yes
+  -o ExitOnForwardFailure=yes
