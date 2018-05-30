@@ -1,15 +1,4 @@
 import_path: platform/conf/defaults
 
 current_build_tag: none
-
-deploy_ssh_opts: >-
-  -o LogLevel=error
-  -o StrictHostKeyChecking=no
-  -o UserKnownHostsFile=/dev/null
-  -o BatchMode=yes
-  -o ExitOnForwardFailure=yes
-
-git_dir: "${WORKSPACE}/.git"
-git_work_tree: "${WORKSPACE}"
-build_tag: '$(git rev-parse --short HEAD)'
-tunnel_port: "$(perl -e 'print int(rand(999)) + 58000')"
+current_deploy_tag: none
