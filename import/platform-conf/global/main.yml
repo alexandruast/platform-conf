@@ -1,2 +1,4 @@
 import_path: platform/conf/global
 
+conf_scm_url:    "https://github.com/alexandruast/platform-conf"
+conf_scm_branch: "*/master"
