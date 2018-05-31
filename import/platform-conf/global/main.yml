@@ -1,4 +1,9 @@
 import_path: platform/conf/global
 
-conf_scm_url:    "https://github.com/alexandruast/platform-conf"
-conf_scm_branch: "*/master"
+vault_addr:          "http://vault.service.consul:8200"
+
+platform_scm_url:    "https://github.com/alexandruast/platform-inception"
+platform_scm_branch: "*/devel"
+
+conf_scm_url:        "https://github.com/alexandruast/platform-conf"
+conf_scm_branch:     "*/master"
