@@ -1,5 +1,7 @@
 import_path: platform/conf/sandbox/global
 
+ssh_deploy_address:      "%%NOREPLACE%%"
+
 docker_registry_address: "docker.io"
 docker_registry_path:    "platformdemo"
 
