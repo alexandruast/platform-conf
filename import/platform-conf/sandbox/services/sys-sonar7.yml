@@ -1,0 +1,6 @@
+import_path: platform/conf/sandbox/services/sys-sonar7
+
+scm_url:      "https://github.com/SonarSource/docker-sonarqube/tree/master/7.1"
+scm_branch:   "*/master"
+
+checkout_dir: "."
