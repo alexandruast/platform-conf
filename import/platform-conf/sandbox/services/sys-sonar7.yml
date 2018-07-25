@@ -8,4 +8,4 @@ deploy_profile: "S1HTTP"
 checkout_dir: "7.1"
 
 pod_listen:     9000
-pod_memory:     500
+pod_memory:     2000
