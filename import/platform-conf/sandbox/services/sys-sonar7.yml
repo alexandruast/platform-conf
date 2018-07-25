@@ -12,3 +12,4 @@ pod_listen:     9000
 pod_memory:     2000
 
 service_env: '[{\"key\":\"SONARQUBE_JDBC_USERNAME\",\"value\":\"admin\"},{\"key\": \"SONARQUBE_JDBC_PASSWORD\",\"value\":\"welcome1\"},{\"key\":\"SONARQUBE_JDBC_URL\",\"value\":\"zerodb.service.consul\"}]'
+service_args: "-Dsonar.web.context=/sonar"
