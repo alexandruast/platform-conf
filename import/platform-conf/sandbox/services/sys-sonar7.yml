@@ -1,11 +1,12 @@
-import_path: platform/conf/sandbox/services/sys-sonar7
+import_path:    platform/conf/sandbox/services/sys-sonar7
 
-scm_url:      "https://github.com/SonarSource/docker-sonarqube"
-scm_branch:   "*/master"
+scm_url:        "https://github.com/SonarSource/docker-sonarqube"
+scm_branch:     "*/master"
 
 deploy_profile: "S1HTTP"
 
-checkout_dir: "7.1"
+checkout_dir:   "7.1"
 
+service_name:   sonar7
 pod_listen:     9000
 pod_memory:     2000
