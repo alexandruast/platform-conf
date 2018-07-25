@@ -11,7 +11,7 @@ service_name:   sonar
 pod_listen:     9000
 pod_memory:     2000
 
-service_env: '[{"key":"SONARQUBE_JDBC_USERNAME","value":"admin"},{"key": "SONARQUBE_JDBC_PASSWORD","value":"welcome1"},{"key": "SONARQUBE_WEB_CONTEXT","value":"/sonar"}]'
+service_env: '[{\"key\":\"SONARQUBE_JDBC_USERNAME\",\"value\":\"admin\"},{\"key\": \"SONARQUBE_JDBC_PASSWORD\",\"value\":\"welcome1\"},{\"key\":\"SONARQUBE_WEB_CONTEXT\",\"value\":\"/sonar\"}]'
 
 
 
