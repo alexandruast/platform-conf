@@ -8,5 +8,9 @@ checkout_dir:   "."
 build_profile:  "gradle47-openjdk8"
 deploy_profile: "S1HTTP"
 
+service_name:   echo
+
 pod_count:      2
 pod_memory:     400
+
+pod_tags:   '[{\"value\":\"urlprefix-/echo strip=/echo\"}]'
