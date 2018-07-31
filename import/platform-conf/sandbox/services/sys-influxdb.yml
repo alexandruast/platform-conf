@@ -1,0 +1,16 @@
+import_path:    platform/conf/sandbox/services/sys-influxdb
+
+scm_url:        https://github.com/influxdata/influxdata-docker
+scm_branch:     "*/master"
+
+checkout_dir:   influxdb/1.5
+
+deploy_profile: S1GENERIC
+
+service_name:   influxdb
+
+pod_listen:     8086
+pod_memory:     500
+
+pod_env:       '[{\"key\":\"INFLUXDB_USER\",\"value\":\"sonar\"},{\"key\": \"INFLUXDB_USER_PASSWORD\",\"value\":\"welcome1\"},{\"key\":\"INFLUXDB_DB\",\"value\":\"sonar\"}]'
+pod_tags:      '[{\"value\":\"urlprefix-:8086 proto=tcp\"}]'

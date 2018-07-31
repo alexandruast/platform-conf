@@ -1,0 +1,7 @@
+import_path: platform/conf/sandbox/images/sys-py-sonar-to-influxdb
+
+scm_url:      "https://github.com/alexandruast/sonar-to-influxdb"
+scm_branch:   "*/master"
+
+checkout_dir: "."
+

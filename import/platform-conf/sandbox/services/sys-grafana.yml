@@ -1,0 +1,18 @@
+import_path:    platform/conf/sandbox/services/sys-sonar7
+
+scm_url:        https://github.com/SonarSource/docker-sonarqube
+scm_branch:     "*/master"
+
+checkout_dir:   7.1
+
+deploy_profile: S1HTTP
+
+service_name:   sonar
+
+pod_listen:     9000
+pod_memory:     2000
+
+# pod_env:  '[{\"key\":\"SONARQUBE_JDBC_USERNAME\",\"value\":\"sonar\"},{\"key\": \"SONARQUBE_JDBC_PASSWORD\",\"value\":\"welcome1\"},{\"key\":\"SONARQUBE_JDBC_URL\",\"value\":\"jdbc:sqlserver://zerodb.service.consul;databaseName=sonar;integratedSecurity=true\"}]'
+pod_args:   '[{\"value\":\"-Dsonar.web.context=/sonar\"},{\"value\":\"-Dsonar.log.level=DEBUG\"}]'
+pod_tags:   '[{\"value\":\"urlprefix-/sonar\"}]'
+pod_health: /sonar/health
