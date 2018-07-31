@@ -12,5 +12,7 @@ service_name:   grafana
 pod_listen:     3000
 pod_memory:     800
 
-pod_tags:   '[{\"value\":\"urlprefix-/grafana strip=/grafana\"}]'
-pod_health: /api/health
+pod_env:       '[{\"key\":\"GF_SERVER_ROOT_URL\",\"value\":\"%(protocol)s://%(domain)s/grafana/\"}]'
+pod_tags:      '[{\"value\":\"urlprefix-/grafana strip=/grafana\"}]'
+
+pod_health:    /api/health
