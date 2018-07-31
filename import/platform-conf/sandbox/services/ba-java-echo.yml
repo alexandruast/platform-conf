@@ -1,14 +1,14 @@
 import_path:    platform/conf/sandbox/services/be-java-echo
 
-scm_url:        "https://github.com/alexandruast/java-echo-service"
+scm_url:        https://github.com/alexandruast/java-echo-service
 scm_branch:     "*/master"
 
-checkout_dir:   "."
+checkout_dir:   .
 
-build_profile:  "gradle47-openjdk8"
-# build_profile:  "maven35-openjdk8"
+build_profile:  gradle47-openjdk8
+# build_profile:  maven35-openjdk8
 
-deploy_profile: "S1HTTP"
+deploy_profile: S1HTTP
 
 service_name:   echo
 

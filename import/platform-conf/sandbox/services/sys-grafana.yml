@@ -1,0 +1,16 @@
+import_path:    platform/conf/sandbox/services/sys-sonar7
+
+scm_url:        https://github.com/grafana/grafana-docker
+scm_branch:     "*/master"
+
+checkout_dir:   .
+
+deploy_profile: S1HTTP
+
+service_name:   grafana
+
+pod_listen:     3000
+pod_memory:     800
+
+pod_tags:   '[{\"value\":\"urlprefix-/grafana\"}]'
+pod_health: /api/health
