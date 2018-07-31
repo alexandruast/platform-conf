@@ -1,4 +1,4 @@
-import_path:    platform/conf/sandbox/services/grafana
+import_path:    platform/conf/sandbox/services/sys-grafana
 
 scm_url:        https://github.com/grafana/grafana-docker
 scm_branch:     "*/master"
