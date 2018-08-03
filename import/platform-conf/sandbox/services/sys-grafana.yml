@@ -5,7 +5,7 @@ scm_branch:     "*/master"
 
 checkout_dir:   .
 
-deploy_profile: S1HTTP
+deploy_profile: S1GENERIC
 
 service_name:   grafana
 
@@ -15,4 +15,5 @@ pod_memory:     800
 pod_env:       '[{\"key\":\"GF_SERVER_ROOT_URL\",\"value\":\"%(protocol)s://%(domain)s/grafana/\"}]'
 pod_tags:      '[{\"value\":\"urlprefix-/grafana strip=/grafana\"}]'
 
-pod_health:    /api/health
+pod_hc_proto:  http
+pod_hc_path:   /api/health

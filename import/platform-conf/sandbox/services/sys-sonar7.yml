@@ -5,7 +5,7 @@ scm_branch:     "*/master"
 
 checkout_dir:   7.1
 
-deploy_profile: S1HTTP
+deploy_profile: S1GENERIC
 
 service_name:   sonar
 
@@ -15,4 +15,6 @@ pod_memory:     2000
 # pod_env:  '[{\"key\":\"SONARQUBE_JDBC_USERNAME\",\"value\":\"sonar\"},{\"key\": \"SONARQUBE_JDBC_PASSWORD\",\"value\":\"welcome1\"},{\"key\":\"SONARQUBE_JDBC_URL\",\"value\":\"jdbc:sqlserver://zerodb.service.consul;databaseName=sonar;integratedSecurity=true\"}]'
 pod_args:   '[{\"value\":\"-Dsonar.web.context=/sonar\"},{\"value\":\"-Dsonar.log.level=DEBUG\"}]'
 pod_tags:   '[{\"value\":\"urlprefix-/sonar\"}]'
-pod_health: /sonar/health
+
+pod_hc_proto: http
+pod_hc_path:  /sonar/health

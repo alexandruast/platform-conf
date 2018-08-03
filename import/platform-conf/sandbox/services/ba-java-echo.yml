@@ -8,7 +8,7 @@ checkout_dir:   .
 build_profile:  gradle47-openjdk8
 # build_profile:  maven35-openjdk8
 
-deploy_profile: S1HTTP
+deploy_profile: S1GENERIC
 
 service_name:   echo
 
