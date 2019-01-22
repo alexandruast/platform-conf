@@ -9,8 +9,8 @@ deploy_profile: S1GENERIC
 
 service_name:   influxdb
 
-pod_listen:     8086
-pod_memory:     500
+service_listen:     8086
+service_memory:     500
 
-pod_env:       '[{\"key\":\"INFLUXDB_USER\",\"value\":\"sonar\"},{\"key\": \"INFLUXDB_USER_PASSWORD\",\"value\":\"welcome1\"},{\"key\":\"INFLUXDB_DB\",\"value\":\"sonar\"}]'
-pod_tags:      '[{\"value\":\"urlprefix-:8086 proto=tcp\"}]'
+service_env:       '[{\"key\":\"INFLUXDB_USER\",\"value\":\"sonar\"},{\"key\": \"INFLUXDB_USER_PASSWORD\",\"value\":\"welcome1\"},{\"key\":\"INFLUXDB_DB\",\"value\":\"sonar\"}]'
+service_tags:      '[{\"value\":\"urlprefix-:8086 proto=tcp\"}]'

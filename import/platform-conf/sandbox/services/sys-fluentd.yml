@@ -3,4 +3,4 @@ import_path: platform/conf/sandbox/services/sys-fluentd
 scm_url:      "https://github.com/alexandruast/platform-inception"
 scm_branch:   "*/devel"
 
-checkout_dir: "pods/sys-fluentd"
+checkout_dir: "services/sys-fluentd"

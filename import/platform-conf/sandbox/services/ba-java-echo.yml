@@ -12,7 +12,7 @@ deploy_profile: S1GENERIC
 
 service_name:   echo
 
-pod_count:      2
-pod_memory:     400
+service_count:      2
+service_memory:     400
 
-pod_tags:   '[{\"value\":\"urlprefix-/echo strip=/echo\"}]'
+service_tags:   '[{\"value\":\"urlprefix-/echo strip=/echo\"}]'

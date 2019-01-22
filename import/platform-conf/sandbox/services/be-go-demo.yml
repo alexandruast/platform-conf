@@ -3,6 +3,6 @@ import_path: platform/conf/sandbox/services/be-go-demo
 scm_url:      "https://github.com/alexandruast/platform-inception"
 scm_branch:   "*/devel"
 
-checkout_dir: "pods/be-go-demo"
+checkout_dir: "services/be-go-demo"
 
 build_profile:  "golang"
