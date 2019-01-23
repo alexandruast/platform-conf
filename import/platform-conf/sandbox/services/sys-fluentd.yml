@@ -5,4 +5,4 @@ scm_branch:    "*/devel"
 
 checkout_dir:  "services/sys-fluentd"
 
-vault_secrets: '["loggly_customer_token"]'
+vault_secrets: '[\"loggly_customer_token\"]'
