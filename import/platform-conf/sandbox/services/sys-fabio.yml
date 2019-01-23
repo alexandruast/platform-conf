@@ -5,4 +5,3 @@ scm_branch:    "*/devel"
 
 checkout_dir:  "services/sys-fabio"
 
-vault_secrets: '["loggly_customer_token"]'
