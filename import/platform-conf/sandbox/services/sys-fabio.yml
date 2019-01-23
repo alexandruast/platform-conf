@@ -1,6 +1,8 @@
-import_path: platform/conf/sandbox/services/sys-fabio
+import_path:   "platform/conf/sandbox/services/sys-fabio"
 
-scm_url:      "https://github.com/alexandruast/platform-inception"
-scm_branch:   "*/devel"
+scm_url:       "https://github.com/alexandruast/platform-inception"
+scm_branch:    "*/devel"
 
-checkout_dir: "services/sys-fabio"
+checkout_dir:  "services/sys-fabio"
+
+vault_secrets: '["loggly_customer_token"]'
