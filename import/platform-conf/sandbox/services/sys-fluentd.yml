@@ -6,3 +6,6 @@ scm_branch:    "*/devel"
 checkout_dir:  "services/sys-fluentd"
 
 vault_secrets: '[\"loggly_customer_token\"]'
+
+service_env:   '[{\"key\":\"LOGGLY_CUSTOMER_TOKEN\",\"value\":\"${LOGGLY_CUSTOMER_TOKEN}\"}]'
+
