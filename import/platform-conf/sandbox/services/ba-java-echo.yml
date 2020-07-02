@@ -3,7 +3,7 @@ import_path:    platform/conf/sandbox/services/be-java-echo
 scm_url:        https://github.com/alexandruast/java-echo-service
 scm_branch:     "*/master"
 
-checkout_dir:   .
+checkout_dir:   complete
 
 build_profile:  gradle47-openjdk8
 # build_profile:  maven35-openjdk8
@@ -12,6 +12,7 @@ deploy_profile: S1GENERIC
 
 service_name:   echo
 
+service_listen:     8080
 service_count:      2
 service_memory:     400
 
