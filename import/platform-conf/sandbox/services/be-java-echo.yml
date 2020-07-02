@@ -1,6 +1,6 @@
 import_path:    platform/conf/sandbox/services/be-java-echo
 
-scm_url:        "https://github.com/spring-guides/gs-rest-service.git"
+scm_url:        "https://github.com/spring-guides/gs-rest-service"
 scm_branch:     "*/master"
 
 checkout_dir:   complete
