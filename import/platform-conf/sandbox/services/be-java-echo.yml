@@ -5,7 +5,7 @@ scm_branch:     "*/master"
 
 checkout_dir:   complete
 
-build_profile:  gradle47-openjdk8
+build_profile:  gradle4-openjdk8
 # build_profile:  maven35-openjdk8
 
 deploy_profile: S1GENERIC
